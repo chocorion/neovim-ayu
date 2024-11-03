@@ -9,7 +9,7 @@ function colors.generate(mirage)
   if vim.o.background == 'dark' then
     if mirage then
       colors.accent = '#FFCC66'
-      colors.bg = '#1F2430'
+      colors.bg = '#1A1A1A'
       colors.fg = '#CCCAC2'
       colors.ui = '#707A8C'
 
@@ -27,15 +27,15 @@ function colors.generate(mirage)
       colors.error = '#FF6666'
       colors.lsp_parameter = '#D3B8F9'
 
-      colors.line = '#171B24'
+      colors.line = '#1E1E1E'
       colors.panel_bg = '#1C212B'
-      colors.panel_shadow = '#161922'
-      colors.panel_border = '#101521'
+      colors.panel_shadow = '#272727'
+      colors.panel_border = '#272727'
       colors.gutter_normal = '#4A505A'
       colors.gutter_active = '#757B84'
       colors.selection_bg = '#274364'
-      colors.selection_inactive = '#23344B'
-      colors.selection_border = '#232A4C'
+      colors.selection_inactive = '#1F1F1F'
+      colors.selection_border = '#969696'
       colors.guide_active = '#444A55'
       colors.guide_normal = '#323843'
 
